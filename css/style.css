@@ -1,5 +1,60 @@
+/*nav*/
 .a-nav {
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;   
+}
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 80%;
+    background: #FF7A00;
+    transition:.5s;
+}
+.underline-hover { 
+    text-decoration: none;
+    position: relative;
+}
+.underline-hover:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+	left: 0;
+    right: 0;
+    background: #FF7A00;
+    transition: all .2s ease-out;
+    display: none;
+}
+.underline-hover:hover:after {
+    display: block;
+    width: 80%;
+}
+/*grid*/
+.text-align {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.border-r {
+    border: none;
+}
+/* margin-top 102 px */
+.mt {
+    margin-top: 102px;
+}
+/*chess cards*/
+.orange {
+    color: #FF7A00 !important;
 }

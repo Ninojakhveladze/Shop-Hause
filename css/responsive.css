@@ -1,0 +1,9 @@
+/* ანდერლაინი ჰედერზე */
+@media (max-width: 990px) {
+    .underline {
+        display: none;
+    }
+    .underline-hover:hover:after {
+        display: none;
+    }
+}
