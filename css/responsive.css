@@ -7,3 +7,14 @@
         display: none;
     }
 }
+/* chess box reserve */
+@media (max-width: 768.99px) {
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-align {
+        transform: none;
+        position: unset;
+    }
+}
