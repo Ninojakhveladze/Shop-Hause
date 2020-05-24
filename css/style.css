@@ -71,6 +71,9 @@
 .text:hover {
     color: #FF7A00;
 }
+.orng-bg {
+    background-color: #FF7A00;
+}
 /* Subscribe */
 .orng-btn {
     background-color: #FF7A00;
@@ -119,4 +122,34 @@
 }
 a:hover {
     color: #FF7A00;
+}
+
+/* carousel text position */
+.car-pos {
+    position: absolute;
+    right: 15%;
+    bottom: 70px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+/* Read more element */
+.element::after {
+    background: #FF7A00;
+    width: 24px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 11px;
+}
+/* user name and comm date */
+.user-name {
+    margin-left: 40px;
+}
+.user-date {
+    margin-left: 50px;
 }
