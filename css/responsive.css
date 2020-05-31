@@ -1,4 +1,4 @@
-/* ანდერლაინი ჰედერზე */
+/* header underline */
 @media (max-width: 990px) {
     .underline {
         display: none;
@@ -8,7 +8,7 @@
     }
 }
 /* chess box reserve */
-@media (max-width: 768.99px) {
+@media (max-width: 766.99px) {
     .reverse {
         display: flex;
         flex-direction: column-reverse;
@@ -28,5 +28,32 @@
     }
     .mt-5 {
         margin-top: 20px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    p {
+        font-size: 15px;
+    }
+    .card-body {
+        padding: 5px;
+    }
+    .p-4 {
+        padding: 5px !important;
+    }
+    .pr-5 {
+        padding-right: 0px !important;
+    }
+    .card-body-resp {
+        text-align: center;
+    }
+    .img-resp {
+        width: 180px !important;
+    }
+    .user-name {
+        margin-left: 16px;
+    }
+    .user-date {
+        margin-left: 14px;
     }
 }
