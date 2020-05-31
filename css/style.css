@@ -28,7 +28,7 @@
 }
 .underline-hover { 
     text-decoration: none;
-    position: relative;
+    position: relative;   
 }
 .underline-hover:after {
     position: absolute;
@@ -39,7 +39,7 @@
 	left: 0;
     right: 0;
     background: #FF7A00;
-    transition: all .2s ease-out;
+    transition: all .5s ease-out;
     display: none;
 }
 .underline-hover:hover:after {
